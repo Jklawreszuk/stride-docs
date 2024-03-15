@@ -13,7 +13,7 @@ You need the following packages:
 * [FreeType](#freetype)
 * [OpenAL](#openal)
 * [SDL2](#sdl2)
-* either Mono or .NET Core (it's OK to install both)
+* Latest NET https://dotnet.microsoft.com/en-us/download)
 
 ## FreeType
 
@@ -87,11 +87,11 @@ sudo pacman -S sdl2
 
 ---
 
-## .NET Core
+## .NET
 
-For information about how to install .NET Core, see the [.NET Core instructions for Linux](https://docs.microsoft.com/en-us/dotnet/core/linux-prerequisites).
+For information about how to install .NET, see the [.NET instructions for Linux](https://docs.microsoft.com/en-us/dotnet/core/linux-prerequisites).
 
-Make sure version 2.1.300+ and runtime 2.1+ is installed. To check which version you have installed, type:
+Make sure NET 8+ is installed. To check which version you have installed, type:
 
 ```
 dotnet --info
